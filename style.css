@@ -1,0 +1,335 @@
+
+/*SECTIONS*/
+
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: rgb(226, 204, 204)138, 38, 38;
+
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+
+}
+section > div{
+    width: 90%;
+}
+
+
+
+.prez a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    background-color: #EA0 ;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/*SECTION EXP ET FORMATION*/
+.exp{
+    display: flex;
+    flex-flow:row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+.exp-info ul{
+    box-shadow: 0px 0px 20px #bbb;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+.exp-logo{
+    display: flex;
+    align-items: center;
+    flex: 2 2 5%;
+    max-width: 80px;
+    
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 49px;
+    height: 49px;
+}
+.exp h3{
+    font-size: 1.2em;
+}
+.exp h4{
+    font-size: 1em;
+    font-weight: normal;
+}
+/*SECTION COMPETENCES*/
+
+.progress-bar {
+    width: 45%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: width 0.2s ease-in-out;
+  }
+
+/*SECTION INTERETS*/
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #bbb;
+}
+a:hover{
+    color: #EA0;
+}
+
+
+
+
+.prez a{
+    border: 2px solid transparent;
+}
+.prez a:hover{
+     color: #f28835;
+     background-color: #fff;
+     border: 2px solid #f28835;
+     box-shadow:0px 0px 20px #666;
+}
+.exp-logo{
+    flex: 0 0 10%;
+}
+.exp-info, .exp-desc{
+    flex: 0 0 85%;
+    margin-left: auto;
+}
+.intert{
+    flex: 0 1 25%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+.coordonnées {
+    flex: 1;
+}
+.photo_contact {
+    flex: 2;
+}
+.photo_contact img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ALL */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify ;
+    box-sizing:border-box ;
+}
+
+
+
+/* HEADER & FOOTER*/
+header, footer {
+    padding: 2px 0px;
+    background: url(images/jj.jpg) ;
+    background-size:cover;
+    width: 100%;
+} 
+
+
+/* HEADER */
+header{
+    border-bottom: 2px solid #fff;
+    background: linear-gradient(to bottom, #fffbfb, #181831);
+    border-radius: 0px 0px 30px 30px;
+} 
+/* HEADER PHOTO PROFIL */
+.container_photo_de_profil{
+    text-align: center;
+}
+.photo img{
+    max-width: 130px;
+    height: auto;
+    border: 3px solid rgba(93, 114, 198, 0.755);
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+
+/* BODY */
+body{
+    background: linear-gradient(to bottom, #fffbfb, #181831);
+}
+
+
+/* H1/2/3... */
+h1 {
+    text-align: center;
+    /* Add text color */
+    color: rgb(255, 255, 255);
+    /* Add padding and border radius for formatting */
+    padding: 10px;
+}
+
+header h1{
+    font-size: 1.5em;
+    width: 100%;
+}  
+
+/* PARTIE 1 */
+.presentation{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.prez2 img{
+    width: 70%;
+    height: auto;
+
+}
+.prez{
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+/* PARTIE 2 */
+.coordonnées .contact-flex{
+    width: 20vw;
+}
+.contact{
+    display: flex;
+    padding-left: 20px;
+    margin-right: auto; 
+}
+.contact .photo_contact {
+    align-self: center;
+}
+.contact-flex{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+/* IMAGES */
+img{
+    border-radius: 30%;
+    box-shadow: 10px 10px 10px rgb(15 1 1);
+}
+.img_footer {
+    width: 35%;
+}
+
+
+/* VIDEO FOOTER */
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.youtube-video{
+    width: auto;
+    height: 400%;
+}
+
+/* ANIMATION */
+.youtube-video:hover {
+    border: 2px solid red;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+/* FOOTER */
+footer {
+    font-size: 19px;
+    margin: 10px auto;
+    color: #fff;
+    border-top: 2px solid #fff;
+    background-image: url(images/); 
+}
+
+.liste_footer{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* BALISES AUTRES */
+p{ 
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
